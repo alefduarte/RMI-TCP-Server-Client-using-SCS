@@ -1,0 +1,25 @@
+﻿<Window x:Class="VoldeMoveis_Cliente.ShopWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VoldeMoveis_Cliente"
+        mc:Ignorable="d"
+        Title="ShopWindow" Height="450" Width="800" Background="#FFB0ADB4" WindowStartupLocation="CenterScreen">
+    <Canvas HorizontalAlignment="Left" Height="419" VerticalAlignment="Top" Width="790">
+        <Label Content="COMPRAS" HorizontalAlignment="Left" VerticalAlignment="Top" Height="115" FontFamily="Nirmala UI Semilight" FontSize="72" Width="387"/>
+        <StackPanel Orientation="Horizontal" UseLayoutRounding="False" Height="120" Canvas.Top="155" Width="790">
+            <Image Height="80" Margin="40,24,0,16" Source="Images/Icons/register.png"/>
+            <Button x:Name="buttonRegisterShop" Content="Cadastro de &#xA;Fornecedores" Width="170" FontFamily="Nirmala UI Semilight" FontSize="24" Margin="20,24,0,16" Height="80" Background="{x:Null}"/>
+            <Image Height="80" Margin="90,24,0,16" Width="80" Source="Images/Icons/stock.png"/>
+            <Button x:Name="buttonOrderShop" Content="Pedido de &#xA;Mercadoria" Width="170" FontFamily="Nirmala UI Semilight" FontSize="24" Margin="20,24,0,16" BorderThickness="1" ScrollViewer.HorizontalScrollBarVisibility="Visible" Background="{x:Null}" Height="80"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="0" Height="120" Canvas.Top="275" Width="790">
+            <Image Height="80" Margin="40,24,0,16" VerticalAlignment="Top" Width="80" Source="Images/Icons/remove.png"/>
+            <Button x:Name="buttonCancelShop" Content="Cancelamento &#xA;de Pedido" FontFamily="Nirmala UI Semilight" FontSize="24" Margin="20,24,0,16" BorderThickness="1" UseLayoutRounding="False" Width="170" Background="{x:Null}" Height="80"/>
+            <Image Height="80" Margin="90,24,0,16" VerticalAlignment="Top" Width="80" Source="Images/Icons/change.png"/>
+            <Button x:Name="buttonChangeShop" Content="Alterar Pedido" Width="170" FontFamily="Nirmala UI Semilight" FontSize="24" Margin="20,24,0,16" Background="{x:Null}" FontWeight="Bold" Height="80"/>
+        </StackPanel>
+        <Button Content="VOLTAR" Height="56" Canvas.Left="653" Width="133" Canvas.Top="10" FontFamily="Nirmala UI Semilight" FontSize="22" Background="{x:Null}" Click="Button_Click"/>
+    </Canvas>
+</Window>

@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\alefd\\Source\\Repos\\RMI_CRISTINA\\VoldeMoveis\\VoldeMoveis_CommonLib\\VoldeMoveis_CommonLib.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\alefd\\Source\\Repos\\RMI_CRISTINA\\VoldeMoveis\\VoldeMoveis_CommonLib\\VoldeMoveis_CommonLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alefd\\Source\\Repos\\RMI_CRISTINA\\VoldeMoveis\\VoldeMoveis_CommonLib\\VoldeMoveis_CommonLib.csproj",
+        "projectName": "VoldeMoveis_CommonLib",
+        "projectPath": "C:\\Users\\alefd\\Source\\Repos\\RMI_CRISTINA\\VoldeMoveis\\VoldeMoveis_CommonLib\\VoldeMoveis_CommonLib.csproj",
+        "packagesPath": "C:\\Users\\alefd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alefd\\Source\\Repos\\RMI_CRISTINA\\VoldeMoveis\\VoldeMoveis_CommonLib\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alefd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Scs": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

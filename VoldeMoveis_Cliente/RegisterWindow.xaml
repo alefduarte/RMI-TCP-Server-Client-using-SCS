@@ -1,0 +1,35 @@
+﻿<Window x:Class="VoldeMoveis_Cliente.RegisterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VoldeMoveis_Cliente"
+        mc:Ignorable="d"
+        Title="RegisterWindow" Height="450" Width="800" Background="White" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Canvas Background="#FFB0ADB4" HorizontalAlignment="Left" Height="416" VerticalAlignment="Top" Width="790" >
+        <Canvas x:Name="Registration" Background="#FFB0ADB4" Height="416" Width="790" Visibility="Hidden">
+            <Label Content="Nome:" Height="42" Canvas.Left="10" Canvas.Top="120" Width="105" FontFamily="Nirmala UI Semilight" FontSize="20"/>
+            <Label Content="CADASTRO" HorizontalAlignment="Left" VerticalAlignment="Top" Height="115" FontFamily="Nirmala UI Semilight" FontSize="72" Width="386"/>
+            <Label Content="CPF:" Height="42" Canvas.Left="10" Canvas.Top="177" Width="105" FontFamily="Nirmala UI Semilight" FontSize="20"/>
+            <Label Content="Endereço:" Height="42" Canvas.Left="388" Canvas.Top="125" Width="114" FontFamily="Nirmala UI Semilight" FontSize="20" RenderTransformOrigin="0.862,3"/>
+            <Label Content="Telefone:" Height="42" Canvas.Left="388" Canvas.Top="177" Width="114" FontFamily="Nirmala UI Semilight" FontSize="20" RenderTransformOrigin="0.862,3"/>
+            <TextBox x:Name="ClientCpf" Height="47" Canvas.Left="120" TextWrapping="Wrap" Canvas.Top="172" Width="263" FontFamily="Nirmala UI Semilight" FontSize="20"/>
+            <TextBox x:Name="ClientName" Height="47" Canvas.Left="120" TextWrapping="Wrap" Canvas.Top="120" Width="263" FontFamily="Nirmala UI Semilight" FontSize="20"/>
+            <TextBox x:Name="ClientAddress" Height="47" Canvas.Left="502" TextWrapping="Wrap" Canvas.Top="120" Width="263" FontFamily="Nirmala UI Semilight" FontSize="20"/>
+            <TextBox x:Name="ClientPhone" Height="47" Canvas.Left="502" TextWrapping="Wrap" Canvas.Top="177" Width="263" FontFamily="Nirmala UI Semilight" FontSize="20"/>
+            <Button x:Name="buttonBackRegisterClient" Content="VOLTAR" Height="56" Canvas.Left="653" Width="133" Canvas.Top="10" FontFamily="Nirmala UI Semilight" FontSize="22" Background="{x:Null}" Click="ButtonBackRegisterClient"/>
+            <Button x:Name="buttonSaveClient" Content="SALVAR" Height="56" Canvas.Left="10" Width="133" Canvas.Top="350" FontFamily="Nirmala UI Semilight" FontSize="22" Background="{x:Null}" Click="ButtonSaveClient_Click"/>
+            <Button x:Name="buttonCancelClient" Content="CANCELAR" Height="56" Canvas.Left="647" Width="133" Canvas.Top="350" FontFamily="Nirmala UI Semilight" FontSize="22" Background="{x:Null}" Click="ButtonCancelClient"/>
+            <Label x:Name="ID" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="20" Canvas.Top="243" Height="42" Width="78" Visibility="Hidden"/>
+        </Canvas>
+        <Grid x:Name="Clientes" Height="416" Width="790">
+            <DataGrid x:Name="ClienteDataGrid" Margin="0,120,0,84" FontSize="18"/>
+            <Label Content="CLIENTES" HorizontalAlignment="Left" VerticalAlignment="Top" Height="115" FontFamily="Nirmala UI Semilight" FontSize="72" Width="386"/>
+            <Button x:Name="buttonBackClient" Content="VOLTAR" FontFamily="Nirmala UI Semilight" FontSize="22" Background="{x:Null}" Click="ButtonBack_Click" Margin="647,10,10,350"/>
+            <Canvas Margin="0,337,0,0"/>
+            <Button x:Name="buttonRegisterClient" Content="CADASTRAR" FontFamily="Nirmala UI Semilight" FontSize="22" Background="{x:Null}" Click="ButtonRegisterClient" Margin="10,347,647,13"/>
+            <Button x:Name="buttonChangeClient" Content="ALTERAR" FontFamily="Nirmala UI Semilight" FontSize="22" Background="{x:Null}" Margin="311,347,346,13" Click="ButtonChangeClient_Click"/>
+            <Button x:Name="buttonDeleteClient" Content="EXCLUIR" FontFamily="Nirmala UI Semilight" FontSize="22" Background="{x:Null}" Margin="647,350,10,10" Click="ButtonDeleteClient_Click"/>
+        </Grid>
+    </Canvas>
+</Window>

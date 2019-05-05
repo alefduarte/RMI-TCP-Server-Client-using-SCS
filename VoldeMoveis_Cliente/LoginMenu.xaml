@@ -1,0 +1,43 @@
+﻿<Window x:Class="VoldeMoveis_Cliente.LoginMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VoldeMoveis_Cliente"
+        mc:Ignorable="d"
+        Title="LoginMenu" Height="450" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid Background="Black">
+        <Canvas x:Name="LoginPage">
+            <Label Content="Login" Cursor="None" Foreground="White" FontFamily="Segoe UI Black" FontSize="48" VerticalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" Padding="5" Canvas.Left="318" Canvas.Top="10"/>
+            <GridSplitter Height="661" Canvas.Left="393" Canvas.Top="-218" Width="5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" RenderTransformOrigin="0.5,0.5" Background="#FF9C9C9C">
+                <GridSplitter.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </GridSplitter.RenderTransform>
+            </GridSplitter>
+            <Label Content="Usuário" Canvas.Left="67" Canvas.Top="138" Background="{x:Null}" Foreground="White" FontSize="24"/>
+            <TextBox x:Name="TextBox_username" Height="24" Canvas.Left="67" TextWrapping="Wrap" Canvas.Top="185" Width="659" Background="#FF7E7E7E" BorderBrush="White" Foreground="White" FontSize="18"/>
+            <Label Content="Senha" Canvas.Left="67" Canvas.Top="228" Background="{x:Null}" Foreground="White" FontSize="24"/>
+            <Button x:Name="Button_Entrar" Content="Entrar" Canvas.Left="330" Canvas.Top="331" Width="130" Height="45" Foreground="White" BorderBrush="White" FontSize="24" Click="Button_Click">
+                <Button.Background>
+                    <SolidColorBrush Color="#FF9B9797"/>
+                </Button.Background>
+            </Button>
+            <Button Content="CONEXAO" Canvas.Left="717" Canvas.Top="388" Width="67" Height="23" Foreground="White" BorderBrush="White" Background="#FF8F8F8F" Click="Button_Click_1"/>
+            <PasswordBox x:Name="PasswordBox" Canvas.Left="67" Canvas.Top="275" Height="24" Width="659" FontSize="18" Foreground="White" BorderBrush="White" Background="#FF7E7E7E"/>
+        </Canvas>
+        <Grid x:Name="GridConexao" Background="Black" Margin="284,89,270,115" Visibility="Hidden">
+            <Label Content="Configurações" HorizontalAlignment="Left" Margin="63,0,0,0" VerticalAlignment="Top" Height="35" Width="128" Foreground="White" FontSize="18"/>
+            <Label Content="IP do Servidor" HorizontalAlignment="Left" Margin="10,39,0,0" VerticalAlignment="Top" Width="154" Foreground="White"/>
+            <TextBox x:Name="TextBox_IP" HorizontalAlignment="Left" Height="23" Margin="10,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Background="#FF8B8B8B" Foreground="White" BorderBrush="White" FontSize="16"/>
+            <Label Content="Porta do Servidor" HorizontalAlignment="Left" Margin="10,102,0,0" VerticalAlignment="Top" Width="154" Foreground="White"/>
+            <TextBox x:Name="TextBox_Port" HorizontalAlignment="Left" Height="23" Margin="10,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Background="#FF8B8B8B" Foreground="White" BorderBrush="White" FontSize="16"/>
+            <Button Content="SALVAR" HorizontalAlignment="Left" Margin="80,187,0,0" VerticalAlignment="Top" Width="74" Background="#FF767676" Foreground="White" BorderBrush="White" Click="Button_Click_2"/>
+            <Button Content="X" HorizontalAlignment="Left" Margin="213,10,0,0" VerticalAlignment="Top" Width="17" Height="19" Click="Button_Click_3" RenderTransformOrigin="0.52,0.535"/>
+        </Grid>
+    </Grid>
+</Window>

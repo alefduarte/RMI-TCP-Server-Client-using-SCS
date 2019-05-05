@@ -1,0 +1,20 @@
+﻿<Window x:Class="VoldeMoveis_Cliente.SaleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VoldeMoveis_Cliente"
+        mc:Ignorable="d"
+        Title="SaleWindow" Height="450" Width="800" Background="#FFADB0B4" WindowStartupLocation="CenterScreen">
+    <Canvas>
+        <Label Content="VENDAS" HorizontalAlignment="Left" VerticalAlignment="Top" Height="115" FontFamily="Nirmala UI Semilight" FontSize="72" Width="386"/>
+        <StackPanel Orientation="Horizontal" UseLayoutRounding="False" Height="120" Canvas.Top="221" Width="786" Canvas.Left="6">
+            <Image Height="80" Margin="40,24,0,16" Source="Images/Icons/register.png"/>
+            <Button x:Name="buttonRegister" Content="Cadastro de &#xA;Clientes" Width="170" FontFamily="Nirmala UI Semilight" FontSize="24" Margin="20,24,0,16" Height="80" Background="{x:Null}" Click="ButtonRegister_Click"/>
+            <Image Height="80" Margin="90,24,0,16" Width="80" Source="Images/Icons/order.png"/>
+            <Button x:Name="buttonSold" Content="Cadastro de &#xA;Venda" Width="170" FontFamily="Nirmala UI Semilight" FontSize="24" Margin="20,24,0,16" BorderThickness="1" ScrollViewer.HorizontalScrollBarVisibility="Visible" Background="{x:Null}" Height="80"/>
+        </StackPanel>
+        <Button Content="VOLTAR" Height="56" Canvas.Left="653" Width="133" Canvas.Top="10" FontFamily="Nirmala UI Semilight" FontSize="22" Background="{x:Null}" Click="Button_Click"/>
+
+    </Canvas>
+</Window>

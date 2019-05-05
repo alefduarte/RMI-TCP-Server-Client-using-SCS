@@ -1,0 +1,9 @@
+C:\Users\alefd\Source\Repos\RMI_CRISTINA\VoldeMoveis\VoldeMoveis_CommonLib\bin\Debug\netstandard2.0\VoldeMoveis_CommonLib.deps.json
+C:\Users\alefd\Source\Repos\RMI_CRISTINA\VoldeMoveis\VoldeMoveis_CommonLib\bin\Debug\netstandard2.0\VoldeMoveis_CommonLib.dll
+C:\Users\alefd\Source\Repos\RMI_CRISTINA\VoldeMoveis\VoldeMoveis_CommonLib\obj\Debug\netstandard2.0\VoldeMoveis_CommonLib.csprojAssemblyReference.cache
+C:\Users\alefd\Source\Repos\RMI_CRISTINA\VoldeMoveis\VoldeMoveis_CommonLib\obj\Debug\netstandard2.0\VoldeMoveis_CommonLib.csproj.CoreCompileInputs.cache
+C:\Users\alefd\Source\Repos\RMI_CRISTINA\VoldeMoveis\VoldeMoveis_CommonLib\obj\Debug\netstandard2.0\VoldeMoveis_CommonLib.AssemblyInfoInputs.cache
+C:\Users\alefd\Source\Repos\RMI_CRISTINA\VoldeMoveis\VoldeMoveis_CommonLib\obj\Debug\netstandard2.0\VoldeMoveis_CommonLib.AssemblyInfo.cs
+C:\Users\alefd\Source\Repos\RMI_CRISTINA\VoldeMoveis\VoldeMoveis_CommonLib\bin\Debug\netstandard2.0\VoldeMoveis_CommonLib.pdb
+C:\Users\alefd\Source\Repos\RMI_CRISTINA\VoldeMoveis\VoldeMoveis_CommonLib\obj\Debug\netstandard2.0\VoldeMoveis_CommonLib.dll
+C:\Users\alefd\Source\Repos\RMI_CRISTINA\VoldeMoveis\VoldeMoveis_CommonLib\obj\Debug\netstandard2.0\VoldeMoveis_CommonLib.pdb
